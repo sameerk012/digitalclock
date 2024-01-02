@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Ephesis&family=Mulish&family=Poppins&family=Roboto&family=Satisfy&family=Ubuntu&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(sunset-silhouettes-trees-mountains-generative-ai.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.digital-clock{
+    background-color: rgba(255, 255, 255, 0.256);
+    height: 10%;
+    width: 260px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 17vh;
+}
+
+.digital-clock > .clock{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    gap: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+h2{
+    font-size: 2.5rem;
+}
